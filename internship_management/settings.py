@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'teams',
     'products',
     'activities',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
