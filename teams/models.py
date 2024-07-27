@@ -11,4 +11,3 @@ class Team(models.Model):
 class Unit(models.Model):
     name = models.CharField(max_length=255)
     teams = models.ManyToManyField(Team)
-
