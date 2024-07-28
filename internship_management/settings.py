@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'teams',
     'products',
     'activities',
+    'api',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
